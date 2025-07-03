@@ -232,6 +232,10 @@ body a:not([class*='button'], .link-decoration, .nav-link):hover, body a:not([cl
   text-decoration: underline;
 }
 
+.justify {
+  text-align: justify;
+}
+
 .theme-dark .link-decoration,
 .toggle-menu .link-decoration {
   color: white;
