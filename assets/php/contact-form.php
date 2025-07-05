@@ -2,7 +2,7 @@
     $name = $_POST['name'];
     $email = $_POST['email'];
     $message = $_POST['message'];
-    $to = 'your-email@example.com'; //<-- Enter your E-Mail address here.
+    $to = 'matteo.ceradini@gmail.com';
     $subject = $_POST['subject'];
 
     $body = "From: $name <br> E-Mail: $email <br> Message: <br> $message";
@@ -12,5 +12,5 @@
     $headers .= 'From:' . $email. "\r\n";
     $headers .= 'Cc:' . $email. "\r\n";
 
-    mail($to, "New Message from Website: $subject", $body, $headers);
+    mail($to, "New Message from Personal Website: $subject", $body, $headers);
 ?>
