@@ -1487,6 +1487,10 @@ button.mfp-close:hover {
   border-radius: 0.5em;
 }
 
+.blog-post-box .link-decoration {
+  font-size: .65em;
+}
+
 .blog-post-box .blog-post-img img {
   -webkit-transform: scale(1);
   transform: scale(1);
@@ -1537,12 +1541,15 @@ button.mfp-close:hover {
   .blog-post-box .blog-post-img {
     display: inline-block;
   }
-  .blog-post-box .blog-post-img img {
-    width: 340px;
+  .blog-post-box .blog-post-img img, .blog-post-box .blog-post-img video {
+    max-width: 340px;
+    width: 100%;
+    height: auto;
   }
   .blog-post-box .blog-post-caption {
     display: inline-block;
     padding-left: 30px;
+    max-width: 600px;
   }
 }
 
