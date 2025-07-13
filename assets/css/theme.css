@@ -289,7 +289,7 @@ body a:not([class*='button'], .link-decoration, .nav-link):hover, body a:not([cl
 .custom-img-icon {
     width: 15px;
     height: 15px;
-    margin-top: -2px;
+    margin-top: -3px;
     object-fit: contain;
 }
 
