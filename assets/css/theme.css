@@ -286,6 +286,13 @@ body a:not([class*='button'], .link-decoration, .nav-link):hover, body a:not([cl
   border-radius: 50%;
 }
 
+.custom-img-icon {
+    width: 15px;
+    height: 15px;
+    margin-top: -2px;
+    object-fit: contain;
+}
+
 .hero-avatar .hero-avatar-text {
   position: absolute;
   bottom: 1em;
