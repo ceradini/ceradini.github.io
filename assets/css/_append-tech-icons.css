@@ -1,7 +1,7 @@
 /* Appended styles: tech stack icons (Devicon) */
 .tech-icons i {
   font-size: 36px; /* icon size */
-  margin: 0 10px 0 0; /* spacing */
+  margin: 0 10px 10px 0; /* spacing */
   line-height: 1;
   vertical-align: middle;
 }
