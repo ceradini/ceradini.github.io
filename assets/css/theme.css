@@ -1106,6 +1106,13 @@ a:focus, a:active, button:focus, button:active {
   filter: blur(1.5px);
 }
 
+.tech-icons i {
+  font-size: 36px; /* icon size */
+  margin: 0 10px 10px 0; /* spacing */
+  line-height: 1;
+  vertical-align: middle;
+}
+
 .mfp-bg {
   background: black;
 }
